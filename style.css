@@ -1,52 +1,38 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   text-align: center;
-  background: linear-gradient(180deg, #fff7cc, #ffeb99);
-  padding: 20px;
+  background: linear-gradient(135deg, #ffcc70, #ff8177);
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  margin-top: 40px;
 }
 
 button {
-  background-color: #ff9900;
-  color: white;
-  font-size: 20px;
+  background: #ff4b2b;
   border: none;
-  padding: 15px 30px;
-  margin: 10px;
-  border-radius: 10px;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin: 8px;
+  font-size: 16px;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 button:hover {
-  background-color: #ffb347;
+  background: #ff6f61;
 }
 
-#pointsDisplay {
-  font-size: 30px;
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#pointsDisplay .yen {
-  font-size: 48px;
+#points {
+  font-size: 22px;
   font-weight: bold;
-  color: #ff6600;
 }
 
-#pointsDisplay .points {
-  font-size: 16px;
-  color: #555;
-}
-
-#adInfo {
-  font-size: 18px;
-  margin-top: 10px;
-}
-
-#rewardArea a {
-  display: block;
+#status {
   margin-top: 15px;
-  font-size: 20px;
-  color: #0066cc;
+  font-weight: bold;
 }
